@@ -1,0 +1,7 @@
+for i in range (0, len (listapos)
+                if listapos(i+1)!⁼ listapos[i]+1:
+                r= listapos[i]
+                a= listapos[i-1]
+                w= listapos[i-2]
+                if r-a !=1 or w-a!=1:
+                    raise exception ("Gaps will change the reading frame!") 
